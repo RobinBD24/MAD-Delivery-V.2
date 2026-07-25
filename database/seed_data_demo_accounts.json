@@ -1,0 +1,17 @@
+{
+  "demo_accounts": [
+    {"role":"Super Admin","name":"Robin Super","email":"super@mad.delivery","password":"super123","branch":"All","permissions":"approve accounts, set rider fees, view all info, block customers, send notices, view complaints, create coins, hold branches/products, daily reports, hold product"},
+    {"role":"Management","name":"Robin Management","email":"management@mad.delivery","password":"mgmt123","branch":"All","permissions":"view overall business performance, total sales reports, branch performance, rider performance, customer growth, marketing campaigns"},
+    {"role":"Branch Manager","name":"Robin Branch","email":"branch@mad.delivery","password":"branch123","branch":"Banani / Naval HQ","permissions":"view orders with sound, change status, view rider info/GPS, assign rider, set delivery zone/time, complaints, bookings (table layout), messaging/chat"},
+    {"role":"Accounts","name":"Robin Accounts","email":"accounts@mad.delivery","password":"accounts123","branch":"All","permissions":"view payments, manage rider commission, withdrawal approval, financial reports, refund processing, audit log"},
+    {"role":"Marketing","name":"Robin Marketing","email":"marketing@mad.delivery","password":"marketing123","branch":"All","permissions":"manage campaigns (discount coupons, offers, promotions), target audience segmentation, send marketing notifications, monitor performance"},
+    {"role":"Rider","name":"Robin Rider","email":"rider@mad.delivery","password":"rider123","branch":"Dynamic","permissions":"login with credentials, view assigned orders, accept delivery, update status, notify customer, message customer, GPS navigation, online/offline switch, commission tracking, withdrawal request, attendance, complaint submission"},
+    {"role":"Customer","name":"Robin Customer","email":"customer@mad.delivery","password":"customer123","branch":"Nearest","permissions":"login, browse food, place order at nearest branch, out of delivery zone message + nearest pickup point, track order, profile info, notifications toggle, order history, repeat/re-order, feedback, complaints, live rider location, rewards/coins"}
+  ],
+  "branches_demo": [
+    {"name":"Banani Branch","slug":"banani","brand_type":"combined","location":"Road 11, Banani"},
+    {"name":"Naval HQ Branch","slug":"naval-hq","brand_type":"cheez","location":"Naval Headquarters Area"},
+    {"name":"Madchef Dhanmondi","slug":"dhanmondi-madchef","brand_type":"madchef","location":"Dhanmondi Road 27"}
+  ],
+  "note":"All demo accounts use the same login page (auth/login.blade.php) — same dark theme (#0c0c0e), amber glow (#f5a623), red accent (#e8192c), fonts DM Sans + Barlow Condensed."
+}
